@@ -1,0 +1,15 @@
+name: An idea or a request
+description: Something you'd like Stillwater to watch, show or do.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: What you're trying to do, and how Stillwater could help.
+    validations:
+      required: true
+  - type: input
+    id: agents
+    attributes:
+      label: Which coding agents do you use?

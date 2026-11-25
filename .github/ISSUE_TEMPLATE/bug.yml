@@ -1,0 +1,31 @@
+name: Something isn't working
+description: Stillwater shows something wrong, misses an agent, uses too much, or crashes.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Stillwater version
+      description: The dropdown's ⋯ menu › About Stillwater
+      placeholder: "0.6.21"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac
+      placeholder: "macOS 26.1, MacBook Air M3"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead. Screenshots help.
+    validations:
+      required: true
+  - type: input
+    id: agents
+    attributes:
+      label: Which coding agents were running? (if it's about agents)
+      placeholder: "Claude Code in Ghostty, Codex in Terminal"
