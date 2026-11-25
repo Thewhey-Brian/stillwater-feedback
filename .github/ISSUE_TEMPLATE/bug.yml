@@ -6,7 +6,7 @@ body:
     id: version
     attributes:
       label: Stillwater version
-      description: The dropdown's ⋯ menu › About Stillwater
+      description: Shown in Settings › About
       placeholder: "0.6.21"
     validations:
       required: true

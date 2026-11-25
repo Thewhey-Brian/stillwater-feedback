@@ -16,7 +16,7 @@ This repository is where you can **report a problem or ask for a feature**. Stil
 
 [Open an issue](../../issues/new/choose) and include:
 
-- Stillwater's version (the dropdown's ⋯ menu › About Stillwater) and your macOS version
+- Stillwater's version (Settings › About) and your macOS version
 - what you did, what you expected, and what happened instead
 - a screenshot of the dropdown if it helps (it shows only what's on your Mac; crop anything you'd rather not share)
 
